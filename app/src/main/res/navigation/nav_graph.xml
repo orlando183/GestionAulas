@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.gestionaulas.LoginFragment"
+        android:label="LoginFragment" >
+        <action
+            android:id="@+id/action_loginFragment_to_recuperarFragment"
+            app:destination="@id/recuperarFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_consultaFragment2"
+            app:destination="@id/consultaFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/recuperarFragment"
+        android:name="com.example.gestionaulas.RecuperarFragment"
+        android:label="fragment_recuperar"
+        tools:layout="@layout/fragment_recuperar" >
+        <action
+            android:id="@+id/action_recuperarFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <action android:id="@+id/action_global_loginFragment" app:destination="@id/loginFragment" />
+    <fragment
+        android:id="@+id/cuentaFragment"
+        android:name="com.example.gestionaulas.CuentaFragment"
+        android:label="fragment_cuenta"
+        tools:layout="@layout/fragment_cuenta" />
+    <action android:id="@+id/action_global_cuentaFragment" app:destination="@id/cuentaFragment" />
+    <fragment
+        android:id="@+id/reservaFragment"
+        android:name="com.example.gestionaulas.ReservaFragment"
+        android:label="fragment_reserva"
+        tools:layout="@layout/fragment_reserva" /><action android:id="@+id/action_global_reservaFragment" app:destination="@id/reservaFragment"/>
+    <fragment
+        android:id="@+id/consultaFragment2"
+        android:name="com.example.gestionaulas.ConsultaFragment"
+        android:label="consulta_fragment"
+        tools:layout="@layout/consulta_fragment" /><action android:id="@+id/action_global_consultaFragment2" app:destination="@id/consultaFragment2"/>
+    <fragment
+        android:id="@+id/listaFragment"
+        android:name="com.example.gestionaulas.ListaFragment"
+        android:label="fragment_lista"
+        tools:layout="@layout/fragment_lista" /><action android:id="@+id/action_global_listaFragment" app:destination="@id/listaFragment"/>
+    <fragment
+        android:id="@+id/listaReservaFragment"
+        android:name="com.example.gestionaulas.ListaReservaFragment"
+        android:label="fragment_lista_reserva"
+        tools:layout="@layout/fragment_lista_reserva" /><action android:id="@+id/action_global_listaReservaFragment" app:destination="@id/listaReservaFragment"/>
+</navigation>

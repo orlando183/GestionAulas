@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "639845394719",
+    "project_id": "gestionaulas-f90d1",
+    "storage_bucket": "gestionaulas-f90d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:639845394719:android:f76a30ac1fd82302ce282a",
+        "android_client_info": {
+          "package_name": "com.example.gestionaulas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "639845394719-fb8ek5dgnpmir40mnmski3pl47kt0mcv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5gItFUenAm3shReXn0fkpdbdMa0fbE6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "639845394719-fb8ek5dgnpmir40mnmski3pl47kt0mcv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

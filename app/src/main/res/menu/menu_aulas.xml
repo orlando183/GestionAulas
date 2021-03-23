@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_perfil"
+        android:title="Mi perfil" />
+    <item
+        android:id="@+id/menu_consulta"
+        android:title="Consultas" />
+    <item
+        android:id="@+id/menu_reservas"
+        android:title="Reservas" />
+    <item
+        android:id="@+id/menu_salir"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        android:title="salir" />
+</menu>
